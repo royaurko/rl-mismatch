@@ -7,8 +7,6 @@ import cPickle as pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style("darkgrid")
-# https://gym.openai.com/envs/CartPole-v0
-# Carlos Aguayo - carlos.aguayo@gmail.com
 
 
 class QLearner(object):

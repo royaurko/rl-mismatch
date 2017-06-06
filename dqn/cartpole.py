@@ -133,4 +133,3 @@ if __name__ == "__main__":
     # Plot tail distribution
     tail_file_name = 'cdf_comparison_{0}_{1}.png'.format(environment, format_e(p_environment))
     plot_tail_distribution(robust_transient_history, nominal_transient_history, tail_file_name)
-
